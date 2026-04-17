@@ -1,0 +1,16 @@
+body {
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+.article {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid red;
+}
