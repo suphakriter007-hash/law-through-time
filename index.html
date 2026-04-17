@@ -1,22 +1,134 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Law Through Time</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Law Through Time | YLIA</title>
+
+  <meta name="description" content="Law Through Time explores how history shapes law, justice, and society.">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1c1b1a;
+      color: #e8e3dc;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #c44536;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #2a2928;
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+      border: 1px solid #444;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: #c44536;
+    }
+
+    .card h3 {
+      color: #e74c3c;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #e74c3c;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>LAW THROUGH TIME</h1>
-<p>Past Shapes Justice</p>
+<header>
+  <h1>LAW THROUGH TIME</h1>
+  <p class="tagline">
+    Exploring how history shapes law, justice, and society.
+  </p>
+</header>
 
-<h2>Articles</h2>
+<div class="container">
 
-<div class="article">
-  <h3>World War II</h3>
-  <p>How global conflict shaped modern law.</p>
-  <a href="article1.html">Read More</a>
+  <div class="articles">
+
+    <!-- 🔥 บทความที่ 1 -->
+    <div class="card">
+      <h3>World War I and Its Impact on International Law</h3>
+      <p>
+        Discover how the Great War reshaped global law, justice systems, and international cooperation.
+      </p>
+      <a href="article1.html">Read More →</a>
+    </div>
+
+    <!-- 🔥 เพิ่มบทความในอนาคตตรงนี้ -->
+    <!--
+    <div class="card">
+      <h3>Cyberbullying and the Law</h3>
+      <p>Understanding legal consequences in the digital age.</p>
+      <a href="article2.html">Read More →</a>
+    </div>
+    -->
+
+  </div>
+
 </div>
+
+<footer>
+  © YLIA – Youth Legal Insight Alliance
+</footer>
 
 </body>
 </html>
